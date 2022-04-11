@@ -9,7 +9,32 @@ body {
 }
 .name{
     width: auto;
+    text-align: center;
+    color: #B91450;
 }
 .km{
     width: auto;
+    text-align: center;
+    color: #B91450;
+}
+.age{
+    width: auto;
+    text-align: center;
+    color: #B91450;
+}
+
+input,
+select {
+    text-align: center;
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    padding: .2rem .4rem;
+}
+
+.button{
+    border: 1px solid #B91450;
+}
+
+.bg-gray{
+    background-color: gray;
 }

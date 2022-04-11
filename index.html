@@ -24,17 +24,17 @@
       <div class="data rounded mt-4">
         <div class="pdetails d-flex justify-content-evenly py-4">
           <div class="name">
-            <h4>Nome e Cognome</h4>
+            <h5>Nome e Cognome</h5>
             <label for="name"></label>
             <input type="text" name="name" id="name" />
           </div>
           <div class="km">
-            <h4>KM da percorrere</h4>
+            <h5>KM da percorrere</h5>
             <label for="km"></label>
             <input type="text" name="km" id="km" />
           </div>
           <div class="age">
-            <h4>Fascia d'età</h4>
+            <h5>Fascia d'età</h5>
             <label for="userAge"></label>
             <select class="ages" name="age" id="age">
               <option value="Minorenne" id="Minorenne">Minorenne</option>
@@ -43,9 +43,32 @@
             </select>
           </div>
         </div>
-        <div class="buttons d-flex justify-content-center">
-          <button class="me-4" id="generate">Genera</button>
-          <button id="annulla">Annulla</button>
+        <div class="mt-5 d-flex justify-content-center">
+          <button class="me-4 rounded-3" id="generate">Genera</button>
+          <button class="me-4 rounded-3" id="annulla">Annulla</button>
+        </div>
+      </div>
+      <h1 class="text-white text-center">IL TUO BIGLIETTO</h1>
+      <div class="container bg-white dettagli d-none">
+        <div class="row">
+          <h4 class="text-uppercase">dettaglio passegeri</h4>
+          <div class="col-3 bg-gray py-4 px-4">
+            <h4 class="text-uppercase">nome passeggero</h4>
+            <div class="nome-passeggero"></div>
+          </div>
+          <div class="col-3 py-4">
+            <h4>offerta</h4>
+            <div class="offerta"></div>
+          </div>
+          <div class="col-1 py-4">
+            <h4>carozza</h4>
+          </div>
+          <div class="col-2 py-4">
+            <h4>codice cp</h4>
+          </div>
+          <div class="col-2 py-4">
+            <h4>costo biglietto</h4>
+          </div>
         </div>
       </div>
       <div id="price"></div>
